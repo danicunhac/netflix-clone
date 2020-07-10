@@ -43,7 +43,7 @@ function Banner() {
           <button className="banner_button">My List</button>
         </div>
         {/* Calls the truncate method after 150 words */}
-        <h1 className="banner_description">{truncate(movie?.overview, 150)}</h1>
+        <h1 className="banner_description">{truncate(movie?.overview, 200)}</h1>
       </div>
 
       <div className="banner-fadeBottom" />
